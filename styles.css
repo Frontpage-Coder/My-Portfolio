@@ -1,0 +1,173 @@
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    color: #ebebeb;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+img {
+    padding: 1rem 1.5rem 1.7rem 1rem;
+    /* border: 1px solid rgb(53, 47, 47); */
+    border-radius: 5rem;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+nav h2 {
+    margin: 1rem 5rem 1rem 3rem;
+    display: inline-block;
+    font-family: Megrim;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3.8rem;
+}
+
+nav li {
+    margin: 0 1.5rem; 
+    font-family: Indie Flower; 
+}
+
+.about {
+    width: 50%;
+}
+
+.about h1, p {
+    margin: 0;
+}
+
+.about p {
+    margin: 0;
+    font-family: Indie Flower;
+}
+
+.circle {
+    border: 1.2rem solid #0ba360;
+    position: relative;
+    top: 12.58rem;
+    left: 55.25rem;
+    border-radius: 100%;
+}
+
+.content {
+    margin-left: 0rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.expo {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.expo h1 {
+    margin: 0 1rem;
+}
+
+.fa-square-js {
+    position: absolute;
+    top: 16rem;
+    right: 32rem;
+    z-index: 1;
+    font-size: 4.5rem;
+}
+
+.fa-css3 {
+    position: absolute;
+    top: 5.3rem;
+    right: 9rem;
+    z-index: 1;
+    font-size: 4rem;
+}
+
+.fa-html5 {
+    position: absolute;
+    top: 28rem;
+    right: 7rem;
+    z-index: 1;
+    font-size: 5.5rem;
+}
+
+.icons {
+    display: inline-flex;
+    margin-left: 20rem;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: larger;
+    margin: 0 1rem;
+}
+
+.img-design {
+    display: inline-flex;
+    margin: 0 20rem 0 0;
+    border: 1rem solid #505351;
+    border-radius: 100%;
+}
+
+.img-design img {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    right: 10rem;
+}
+
+.img-design i {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.intro-content {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 3rem 0 0 8rem;
+    line-height: 1.25;
+    padding: 0 0 5rem 0;
+}
+
+.intro-content h3 {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);;
+    width: 11rem;
+    padding: 0.8rem;
+    margin: 0;
+    border-radius: 0.2rem;
+}
+
+.intro-content h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.intro-content a {
+    color: rgba(14, 170, 94, 0.552);
+    font-size: large;
+}
+
+.intro-content p {
+    margin: 1rem 0 1.5rem 0;
+    font-family: Indie Flower;
+}
+
+.work {
+    margin: 1rem 0 0 1.5rem;
+    display: flex;
+}
+
+
+
+
